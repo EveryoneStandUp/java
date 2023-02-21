@@ -1,6 +1,7 @@
 package ch04.exercise;
 
 public class Example120891 {
+	//프로그래머스 120891
 	public int solution(int order) {
 			    int clap = 0;
 			    

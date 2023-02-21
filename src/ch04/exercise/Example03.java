@@ -6,11 +6,21 @@ public class Example03 {
 		int sum = 0;
 		int i = 0;
 		
-		while (i <= 100) {
+		for(i=0; i<=100; i+=3) {
 			sum += i;
-			i += 3;
+			
 		}
 		System.out.println(sum);
+		
+		
+//		int sum = 0;
+//		int i = 0;
+//		
+//		while (i <= 100) {
+//			sum += i;
+//			i += 3;
+//		}
+//		System.out.println(sum);
 		
 	}
 }
