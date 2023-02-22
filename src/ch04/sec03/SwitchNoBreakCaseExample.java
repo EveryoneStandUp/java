@@ -1,6 +1,6 @@
 package ch04.sec03;
 
-public class SwitchNoBreakCCaseExample {
+public class SwitchNoBreakCaseExample {
 	public static void main(String[] args) {
 		int time = (int)(Math.random() * 4) + 8;
 		System.out.println("[현재 시간 : " + time + "시]");
