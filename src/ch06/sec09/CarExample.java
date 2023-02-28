@@ -6,6 +6,6 @@ public class CarExample {
 		Car yourCar = new Car("벤츠");
 		
 		myCar.run();
-		yourCar.run();F
+		yourCar.run();
 	}
 }
