@@ -1,4 +1,4 @@
-package ch07.sec07.exam01;
+package ch06.sec07.exam01;
 
 public class Car {
 	// 생성자 선언

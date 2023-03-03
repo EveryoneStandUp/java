@@ -1,4 +1,4 @@
-package ch07.sec07.exam03;
+package ch06.sec07.exam03;
 
 public class Korean {
 	// 필드 선언
