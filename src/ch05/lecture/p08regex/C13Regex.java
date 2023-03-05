@@ -1,4 +1,4 @@
-package ch05.lecture.p08regex;
+	package ch05.lecture.p08regex;
 
 public class C13Regex {
 	public static void main(String[] args) {

@@ -23,7 +23,5 @@ public class C03Matrix {
 				{99, 100, 101}
 		};
 	
-		
-		
 	}
 }
