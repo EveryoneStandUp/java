@@ -8,7 +8,7 @@ public class C06Polymorphism {
 		
 		Super06 o3 = new Sub06(); // ok
 		
-		Super06 o4 = new Super06();
+		Super06 o4 = new Super06(); // ok
 //		Sub06 o5 = o4 // xxx
 		
 //		Sub06 o6 = new Super06(); // xxx
