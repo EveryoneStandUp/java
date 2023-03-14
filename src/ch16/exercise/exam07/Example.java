@@ -15,7 +15,9 @@ public class Example {
 
 	public static void main(String[] args) {
 		// 최대값 얻기
-		int max1 = maxOrMin((x, y) -> Math.max(x, y));
+//		int max1 = maxOrMin((x, y) -> Math.max(x, y));
+		// 스태틱 메소드 참조로 변경해보기
+		int max1 = maxOrMin(Math::max);
 		System.out.println("최대값: " + max1);
 
 		int max2 = maxOrMin((x, y) -> ((x > y) ? x : y));
@@ -31,7 +33,9 @@ public class Example {
 		System.out.println("최대값: " + max3);
 
 		// 최소값 얻기
-		int min1 = maxOrMin((x, y) -> Math.min(x, y));
+//		int min1 = maxOrMin((x, y) -> Math.min(x, y));
+		// 스태틱 메소드 참조로 변경해보기
+		int min1 = maxOrMin(Math::min);
 		System.out.println("최소값: " + min1);
 
 		int min2 = maxOrMin((x, y) -> (x > y) ? y : x);
