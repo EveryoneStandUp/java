@@ -1,4 +1,4 @@
-package ch17.lecture.p02terminal;
+package practice2;
 
 import java.util.*;
 import java.util.stream.*;
@@ -6,7 +6,7 @@ import java.util.stream.*;
 public class C02Count {
 	public static void main(String[] args) {
 		// count
-		IntStream stream1 = IntStream.range(0, 100); // 0~99
+		IntStream stream1 = IntStream.range(1, 100);
 		
 		long count1 = stream1.count();
 		System.out.println(count1);
@@ -20,7 +20,6 @@ public class C02Count {
 		long count3 = list.stream().count();
 		System.out.println(count3);
 		
-		// method chain
 		long count4 = list.stream()
 				.map(s -> s)
 				.filter(s -> s.startsWith("c"))
