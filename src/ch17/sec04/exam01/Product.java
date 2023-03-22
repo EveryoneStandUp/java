@@ -1,7 +1,5 @@
 package ch17.sec04.exam01;
 
-import ch17.sec04.stringbuilder.*;
-
 public class Product {
 	private int pno;
 	private String name;
